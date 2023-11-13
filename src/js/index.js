@@ -1,3 +1,7 @@
+alert("I think I have to see what is happening")
+console.log("I will not be silent")
+
+
 import Search from "./models/Search";
 import Recipe from "./models/Recipe";
 import List from './models/List';
@@ -7,6 +11,8 @@ import * as recipeView from './views/recipeView';
 import * as listView from './views/listView';
 import * as likesView from './views/likesView';
 import { elements, renderLoader, clearLoader } from "./views/base";
+
+
 
 const state = {};
 // window.state = state;
