@@ -10,7 +10,7 @@ module.exports = {
     devServer: {
         // contentBase: './dist' //outdated
         static: {
-            directory: path.join(__dirname, 'dist'), //file path pointing to index.html in dist directory of forkify directory
+            directory: path.join(__dirname, 'public'), //file path pointing to index.html in dist directory of forkify directory
           },
     },
     plugins: [

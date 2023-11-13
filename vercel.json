@@ -1,0 +1,7 @@
+{
+    "builds": [
+      { "src": "./public", "use": "@vercel/static-build", "config": { "command": "npm run build" } }
+    ],
+    "routes": [{ "handle": "filesystem" }, { "src": "/.*", "dest": "index.html" }]
+}
+  
